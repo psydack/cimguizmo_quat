@@ -6,6 +6,11 @@
 #include "cimguizmo_quat.h"
 
 
+CIMGUI_API void ImGuizmoQuat_SetImGuiContext(ImGuiContext* ctx)
+{
+    return ImGui::SetCurrentContext(ctx);
+}
+
 
 static inline ImVec4 ConvertToCPP_ImVec4(const ImVec4_c& src)
 {
@@ -355,5 +360,4 @@ CIMGUI_API void quat_pos_cast(float f[16], quat *qq, vec3 *pos)
 	pos->y = f[13];
 	pos->z = f[14];
 }
-
 
