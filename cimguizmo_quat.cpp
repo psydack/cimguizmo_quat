@@ -6,11 +6,6 @@
 #include "cimguizmo_quat.h"
 
 
-CIMGUI_API void ImGuizmoQuat_SetImGuiContext(ImGuiContext* ctx)
-{
-    return ImGui::SetCurrentContext(ctx);
-}
-
 
 static inline ImVec4 ConvertToCPP_ImVec4(const ImVec4_c& src)
 {

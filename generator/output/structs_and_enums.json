@@ -133,7 +133,7 @@
   },
   "enumtypes": [],
   "locations": {
-    "imguiGizmo": "imGuIZMOquat:81",
+    "imguiGizmo": "imGuIZMOquat:28",
     "solidSides": "imGuIZMOquat:112",
     "unnamed1": "imGuIZMOquat:91",
     "unnamed2": "imGuIZMOquat:106",
@@ -188,6 +188,7 @@
     "ImGuiOldColumnData": "inherited",
     "ImGuiOldColumns": "inherited",
     "ImGuiOnceUponAFrame": "inherited",
+    "ImGuiPackedDate": "inherited",
     "ImGuiPayload": "inherited",
     "ImGuiPlatformIO": "inherited",
     "ImGuiPlatformImeData": "inherited",

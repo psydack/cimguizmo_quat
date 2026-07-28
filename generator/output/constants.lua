@@ -1,0 +1,10 @@
+local t={
+  IMGUIZMO_DEF_SIZE="(ImGui::GetFrameHeightWithSpacing()*4 - (ImGui::GetStyle().ItemSpacing.y*2))",
+  IMGUI_HAS_DOCK="// In 'docking' WIP branch.",
+  IMGUI_HAS_TABLE="// Added BeginTable() - from IMGUI_VERSION_NUM >= 18000",
+  IMGUI_HAS_TEXTURES="// Added ImGuiBackendFlags_RendererHasTextures - from IMGUI_VERSION_NUM >= 19198",
+  IMGUI_HAS_VIEWPORT="// In 'docking' WIP branch.",
+  IMGUI_VERSION="\"1.92.9\"",
+  IMGUI_VERSION_NUM="19290",
+  STARTING_ALPHA_PLANE=".75f"}
+ return t

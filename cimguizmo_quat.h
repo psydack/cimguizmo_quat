@@ -42,23 +42,23 @@ typedef struct quat{
 typedef struct ImVector_vec3 {int Size;int Capacity;vec3* Data;} ImVector_vec3;
 
 typedef struct imguiGizmo imguiGizmo;
-    enum {
-                mode3Axes = 0x0001,
-                modeDirection = 0x0002,
-                modeDirPlane = 0x0004,
-                modeDual = 0x0008,
-                modePanDolly = 0x0010,
-                modeMask = 0x00ff,
-                cubeAtOrigin = 0x0100,
-                sphereAtOrigin = 0x0200,
-                noSolidAtOrigin = 0x0400,
-                modeFullAxes = 0x0800,
-                axesModeMask = 0xff00
+    enum      {
+                mode3Axes          = 0x0001,
+                modeDirection      = 0x0002,
+                modeDirPlane       = 0x0004,
+                modeDual           = 0x0008,
+                modePanDolly       = 0x0010,
+                modeMask           = 0x00ff,
+                cubeAtOrigin       = 0x0100,
+                sphereAtOrigin     = 0x0200,
+                noSolidAtOrigin    = 0x0400,
+                modeFullAxes       = 0x0800,
+                axesModeMask       = 0xff00
     };
     enum { sphereTess16, sphereTess8, sphereTess4, sphereTess2 };
     enum { CONE_SURF, CONE_CAP, CYL_SURF, CYL_CAP };
     enum { axisIsX, axisIsY, axisIsZ };
-typedef enum { backSide, frontSide }solidSides;
+typedef enum { backSide, frontSide  }solidSides;
 struct imguiGizmo
 {
     quat qtV;
